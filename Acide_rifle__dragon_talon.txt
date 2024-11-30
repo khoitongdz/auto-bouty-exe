@@ -8,12 +8,12 @@ getgenv().Configs = {
     ["Click Time"] = 0.1,
     ["Bypass TP"] = true,
     ["Chat"] = {
-        ["Enable"] = false,
-        ["Message"] = {"make by nightx"}, -- Input your message here
+        ["Enable"] = true,
+        ["Message"] = {"make by khoitongdz"}, -- Input your message here
     },
     ["Run When Low Health"] = {
         ["Enable"] = true,
-        ["Health"] = 3500,
+        ["Health"] = 4500,
         ["Come back"] = true
     },
     ["Region"] = "Germany", -- Singapore, United States, Germany, France, India, ??? ...
@@ -103,8 +103,9 @@ getgenv().Configs = {
     },
     ["Webhook"] = {
         ["Enable"] = true,
-        ["Url"] = "",
-        ["Image"] = ""
+        ["Url"] =  
+        "https://discord.com/api/webhooks/1151378943195217990/wYxdyNbddwQuz6n5qssbaq3gG7ZKHRshMBSsmFxVHv7FFIxbV6Ebxvmdnku6sO0skQs",
+        ["Image"] = "https://cdn.discordapp.com/emojis/1290305687762501723.webp?size=96&quality=lossless"
     }
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/verudous/Xero-Hub/main/autobounty.lua"))()
